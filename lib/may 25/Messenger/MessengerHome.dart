@@ -452,16 +452,11 @@ class MessengerHome extends StatelessWidget {
                 ],
               ),
             ),
-        
-            
+
+
             SizedBox(height: 30,),
-        
+
             //column
-            Column(
-              children: [
-                Column(
-                  children: [
-            
             Column(
               children: [
                 Row(
@@ -489,29 +484,23 @@ class MessengerHome extends StatelessWidget {
                       ),
                     ),
                     Column(
+                      crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
-                        Padding(
-                          padding: const EdgeInsets.only(right: 210),
-                          child: Text("Name A", style: TextStyle(
-                            fontSize: 30,
-                            fontWeight: FontWeight.bold,
-                          ),),
-                        ),
-                        SizedBox(height: 10,),
-                        Padding(
-                          padding: const EdgeInsets.only(right: 160),
-                          child: Text("Hi! How are you?", style: TextStyle(
-                            fontSize: 20,
-                          ),),
-                        ),
+                        Text("Name A", style: TextStyle(
+                          fontSize: 30,
+                          fontWeight: FontWeight.bold,
+                        ),),
+                        Text("Hi! How are you?", style: TextStyle(
+                          fontSize: 20,
+                        ),),
                       ],
                     ),
 
 
                   ],
                 ),
-            
-                SizedBox(height: 15,),
+
+                SizedBox(height: 10,),
                 Row(
                   children: [
                     Padding(
@@ -519,96 +508,41 @@ class MessengerHome extends StatelessWidget {
                       child: Container(
                         height: 90,
                         width: 90,
-            
+
                         decoration: BoxDecoration(
-                          color: Colors.yellow,
+                          color: Colors.blue,
                           borderRadius: BorderRadius.circular(100),
                         ),
-            
+
                         child: Center(
                           child: Text("B", style: TextStyle(
-                            fontSize: 20,
-                            color: Colors.red,
-                            fontWeight: FontWeight.bold,
-                          ),),
-                        ),
-            
-            
-                      ),
-                    ),
-                    Column(
-                      children: [
-                        Padding(
-                          padding: const EdgeInsets.only(right: 210),
-                          child: Text("Name B", style: TextStyle(
-                            fontSize: 30,
-                            fontWeight: FontWeight.bold,
-                          ),),
-                        ),
-                        SizedBox(height: 10,),
-                        Padding(
-                          padding: const EdgeInsets.only(right: 160),
-                          child: Text("Hi! How are you?", style: TextStyle(
-                            fontSize: 20,
-                          ),),
-                        ),
-                      ],
-                    ),
-            
-            
-                  ],
-                ),
-            
-            
-                SizedBox(height: 15,),
-                Row(
-                  children: [
-                    Padding(
-                      padding: const EdgeInsets.only(left: 10,right: 20),
-                      child: Container(
-                        height: 90,
-                        width: 90,
-            
-                        decoration: BoxDecoration(
-                          color: Colors.green,
-                          borderRadius: BorderRadius.circular(100),
-                        ),
-            
-                        child: Center(
-                          child: Text("C", style: TextStyle(
                             fontSize: 20,
                             color: Colors.white,
                             fontWeight: FontWeight.bold,
                           ),),
                         ),
-            
-            
+
+
                       ),
                     ),
                     Column(
+                      crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
-                        Padding(
-                          padding: const EdgeInsets.only(right: 210),
-                          child: Text("Name C", style: TextStyle(
-                            fontSize: 30,
-                            fontWeight: FontWeight.bold,
-                          ),),
-                        ),
-                        SizedBox(height: 10,),
-                        Padding(
-                          padding: const EdgeInsets.only(right: 160),
-                          child: Text("Hi! How are you?", style: TextStyle(
-                            fontSize: 20,
-                          ),),
-                        ),
+                        Text("Name B", style: TextStyle(
+                          fontSize: 30,
+                          fontWeight: FontWeight.bold,
+                        ),),
+                        Text("Hi! How are you?", style: TextStyle(
+                          fontSize: 20,
+                        ),),
                       ],
                     ),
-            
-            
+
+
                   ],
                 ),
-            
-                SizedBox(height: 15,),
+
+                SizedBox(height: 10,),
                 Row(
                   children: [
                     Padding(
@@ -616,48 +550,41 @@ class MessengerHome extends StatelessWidget {
                       child: Container(
                         height: 90,
                         width: 90,
-            
+
                         decoration: BoxDecoration(
-                          color: Colors.purpleAccent,
+                          color: Colors.yellow,
                           borderRadius: BorderRadius.circular(100),
                         ),
-            
+
                         child: Center(
-                          child: Text("D", style: TextStyle(
+                          child: Text("C", style: TextStyle(
                             fontSize: 20,
                             color: Colors.black,
                             fontWeight: FontWeight.bold,
                           ),),
                         ),
-            
-            
+
+
                       ),
                     ),
                     Column(
+                      crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
-                        Padding(
-                          padding: const EdgeInsets.only(right: 210),
-                          child: Text("Name D", style: TextStyle(
-                            fontSize: 30,
-                            fontWeight: FontWeight.bold,
-                          ),),
-                        ),
-                        SizedBox(height: 10,),
-                        Padding(
-                          padding: const EdgeInsets.only(right: 160),
-                          child: Text("Hi! How are you?", style: TextStyle(
-                            fontSize: 20,
-                          ),),
-                        ),
+                        Text("Name C", style: TextStyle(
+                          fontSize: 30,
+                          fontWeight: FontWeight.bold,
+                        ),),
+                        Text("Hi! How are you?", style: TextStyle(
+                          fontSize: 20,
+                        ),),
                       ],
                     ),
-            
-            
+
+
                   ],
                 ),
-            
-            
-                SizedBox(height: 15,),
+
+                SizedBox(height: 10,),
                 Row(
                   children: [
                     Padding(
@@ -665,12 +592,54 @@ class MessengerHome extends StatelessWidget {
                       child: Container(
                         height: 90,
                         width: 90,
-            
+
                         decoration: BoxDecoration(
                           color: Colors.cyan,
                           borderRadius: BorderRadius.circular(100),
                         ),
-            
+
+                        child: Center(
+                          child: Text("D", style: TextStyle(
+                            fontSize: 20,
+                            color: Colors.white,
+                            fontWeight: FontWeight.bold,
+                          ),),
+                        ),
+
+
+                      ),
+                    ),
+                    Column(
+                      crossAxisAlignment: CrossAxisAlignment.start,
+                      children: [
+                        Text("Name D", style: TextStyle(
+                          fontSize: 30,
+                          fontWeight: FontWeight.bold,
+                        ),),
+                        Text("Hi! How are you?", style: TextStyle(
+                          fontSize: 20,
+                        ),),
+                      ],
+                    ),
+
+
+                  ],
+                ),
+
+                SizedBox(height: 10,),
+                Row(
+                  children: [
+                    Padding(
+                      padding: const EdgeInsets.only(left: 10,right: 20),
+                      child: Container(
+                        height: 90,
+                        width: 90,
+
+                        decoration: BoxDecoration(
+                          color: Colors.orange,
+                          borderRadius: BorderRadius.circular(100),
+                        ),
+
                         child: Center(
                           child: Text("E", style: TextStyle(
                             fontSize: 20,
@@ -678,34 +647,28 @@ class MessengerHome extends StatelessWidget {
                             fontWeight: FontWeight.bold,
                           ),),
                         ),
-            
-            
+
+
                       ),
                     ),
                     Column(
+                      crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
-                        Padding(
-                          padding: const EdgeInsets.only(right: 210),
-                          child: Text("Name E", style: TextStyle(
-                            fontSize: 30,
-                            fontWeight: FontWeight.bold,
-                          ),),
-                        ),
-                        SizedBox(height: 10,),
-                        Padding(
-                          padding: const EdgeInsets.only(right: 160),
-                          child: Text("Hi! How are you?", style: TextStyle(
-                            fontSize: 20,
-                          ),),
-                        ),
+                        Text("Name E", style: TextStyle(
+                          fontSize: 30,
+                          fontWeight: FontWeight.bold,
+                        ),),
+                        Text("Hi! How are you?", style: TextStyle(
+                          fontSize: 20,
+                        ),),
                       ],
                     ),
-            
-            
+
+
                   ],
                 ),
-            
-                SizedBox(height: 15,),
+
+                SizedBox(height: 10,),
                 Row(
                   children: [
                     Padding(
@@ -713,12 +676,12 @@ class MessengerHome extends StatelessWidget {
                       child: Container(
                         height: 90,
                         width: 90,
-            
+
                         decoration: BoxDecoration(
-                          color: Colors.pink,
+                          color: Colors.purpleAccent,
                           borderRadius: BorderRadius.circular(100),
                         ),
-            
+
                         child: Center(
                           child: Text("F", style: TextStyle(
                             fontSize: 20,
@@ -726,35 +689,28 @@ class MessengerHome extends StatelessWidget {
                             fontWeight: FontWeight.bold,
                           ),),
                         ),
-            
-            
+
+
                       ),
                     ),
                     Column(
+                      crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
-                        Padding(
-                          padding: const EdgeInsets.only(right: 210),
-                          child: Text("Name F", style: TextStyle(
-                            fontSize: 30,
-                            fontWeight: FontWeight.bold,
-                          ),),
-                        ),
-                        SizedBox(height: 10,),
-                        Padding(
-                          padding: const EdgeInsets.only(right: 160),
-                          child: Text("Hi! How are you?", style: TextStyle(
-                            fontSize: 20,
-                          ),),
-                        ),
+                        Text("Name F", style: TextStyle(
+                          fontSize: 30,
+                          fontWeight: FontWeight.bold,
+                        ),),
+                        Text("Hi! How are you?", style: TextStyle(
+                          fontSize: 20,
+                        ),),
                       ],
                     ),
-            
-            
+
+
                   ],
                 ),
-            
-            
-                SizedBox(height: 15,),
+
+                SizedBox(height: 10,),
                 Row(
                   children: [
                     Padding(
@@ -762,207 +718,180 @@ class MessengerHome extends StatelessWidget {
                       child: Container(
                         height: 90,
                         width: 90,
-            
-                        decoration: BoxDecoration(
-                          color: Colors.greenAccent,
-                          borderRadius: BorderRadius.circular(100),
-                        ),
-            
-                        child: Center(
-                          child: Text("G", style: TextStyle(
-                            fontSize: 20,
-                            color: Colors.red,
-                            fontWeight: FontWeight.bold,
-                          ),),
-                        ),
-            
-            
-                      ),
-                    ),
-                    Column(
-                      children: [
-                        Padding(
-                          padding: const EdgeInsets.only(right: 210),
-                          child: Text("Name G", style: TextStyle(
-                            fontSize: 30,
-                            fontWeight: FontWeight.bold,
-                          ),),
-                        ),
-                        SizedBox(height: 10,),
-                        Padding(
-                          padding: const EdgeInsets.only(right: 160),
-                          child: Text("Hi! How are you?", style: TextStyle(
-                            fontSize: 20,
-                          ),),
-                        ),
-                      ],
-                    ),
-            
-            
-                  ],
-                ),
-            
-            
-                SizedBox(height: 15,),
-                Row(
-                  children: [
-                    Padding(
-                      padding: const EdgeInsets.only(left: 10,right: 20),
-                      child: Container(
-                        height: 90,
-                        width: 90,
-            
-                        decoration: BoxDecoration(
-                          color: Colors.tealAccent,
-                          borderRadius: BorderRadius.circular(100),
-                        ),
-            
-                        child: Center(
-                          child: Text("H", style: TextStyle(
-                            fontSize: 20,
-                            color: Colors.red,
-                            fontWeight: FontWeight.bold,
-                          ),),
-                        ),
-            
-            
-                      ),
-                    ),
-                    Column(
-                      children: [
-                        Padding(
-                          padding: const EdgeInsets.only(right: 210),
-                          child: Text("Name H", style: TextStyle(
-                            fontSize: 30,
-                            fontWeight: FontWeight.bold,
-                          ),),
-                        ),
-                        SizedBox(height: 10,),
-                        Padding(
-                          padding: const EdgeInsets.only(right: 160),
-                          child: Text("Hi! How are you?", style: TextStyle(
-                            fontSize: 20,
-                          ),),
-                        ),
-                      ],
-                    ),
-            
-            
-                  ],
-                ),
-            
-                SizedBox(height: 15,),
-                Row(
-                  children: [
-                    Padding(
-                      padding: const EdgeInsets.only(left: 10,right: 20),
-                      child: Container(
-                        height: 90,
-                        width: 90,
-            
-                        decoration: BoxDecoration(
-                          color: Colors.red,
-                          borderRadius: BorderRadius.circular(100),
-                        ),
-            
-                        child: Center(
-                          child: Text("I", style: TextStyle(
-                            fontSize: 20,
-                            color: Colors.black,
-                            fontWeight: FontWeight.bold,
-                          ),),
-                        ),
-            
-            
-                      ),
-                    ),
-                    Column(
-                      children: [
-                        Padding(
-                          padding: const EdgeInsets.only(right: 210),
-                          child: Text("Name I", style: TextStyle(
-                            fontSize: 30,
-                            fontWeight: FontWeight.bold,
-                          ),),
-                        ),
-                        SizedBox(height: 10,),
-                        Padding(
-                          padding: const EdgeInsets.only(right: 160),
-                          child: Text("Hi! How are you?", style: TextStyle(
-                            fontSize: 20,
-                          ),),
-                        ),
-                      ],
-                    ),
-            
-            
-                  ],
-                ),
-            
-            
-                SizedBox(height: 15,),
-                Row(
-                  children: [
-                    Padding(
-                      padding: const EdgeInsets.only(left: 10,right: 20),
-                      child: Container(
-                        height: 90,
-                        width: 90,
-            
-                        decoration: BoxDecoration(
-                          color: Colors.yellow,
-                          borderRadius: BorderRadius.circular(100),
-                        ),
-            
-                        child: Center(
-                          child: Text("J", style: TextStyle(
-                            fontSize: 20,
-                            color: Colors.red,
-                            fontWeight: FontWeight.bold,
-                          ),),
-                        ),
-            
-            
-                      ),
-                    ),
-                    Column(
-                      children: [
-                        Padding(
-                          padding: const EdgeInsets.only(right: 210),
-                          child: Text("Name J", style: TextStyle(
-                            fontSize: 30,
-                            fontWeight: FontWeight.bold,
-                          ),),
-                        ),
-                        SizedBox(height: 10,),
-                        Padding(
-                          padding: const EdgeInsets.only(right: 160),
-                          child: Text("Hi! How are you?", style: TextStyle(
-                            fontSize: 20,
-                          ),),
-                        ),
-                      ],
-                    ),
-            
-            
-                  ],
-                ),
-            
-            
-                SizedBox(height: 15,),
-                Row(
-                  children: [
-                    Padding(
-                      padding: const EdgeInsets.only(left: 10,right: 20, bottom: 10,),
-                      child: Container(
-                        height: 90,
-                        width: 90,
-            
+
                         decoration: BoxDecoration(
                           color: Colors.black,
                           borderRadius: BorderRadius.circular(100),
                         ),
-            
+
+                        child: Center(
+                          child: Text("G", style: TextStyle(
+                            fontSize: 20,
+                            color: Colors.white,
+                            fontWeight: FontWeight.bold,
+                          ),),
+                        ),
+
+
+                      ),
+                    ),
+                    Column(
+                      crossAxisAlignment: CrossAxisAlignment.start,
+                      children: [
+                        Text("Name G", style: TextStyle(
+                          fontSize: 30,
+                          fontWeight: FontWeight.bold,
+                        ),),
+                        Text("Hi! How are you?", style: TextStyle(
+                          fontSize: 20,
+                        ),),
+                      ],
+                    ),
+
+
+                  ],
+                ),
+
+                SizedBox(height: 10,),
+                Row(
+                  children: [
+                    Padding(
+                      padding: const EdgeInsets.only(left: 10,right: 20),
+                      child: Container(
+                        height: 90,
+                        width: 90,
+
+                        decoration: BoxDecoration(
+                          color: Colors.grey,
+                          borderRadius: BorderRadius.circular(100),
+                        ),
+
+                        child: Center(
+                          child: Text("H", style: TextStyle(
+                            fontSize: 20,
+                            color: Colors.white,
+                            fontWeight: FontWeight.bold,
+                          ),),
+                        ),
+
+
+                      ),
+                    ),
+                    Column(
+                      crossAxisAlignment: CrossAxisAlignment.start,
+                      children: [
+                        Text("Name H", style: TextStyle(
+                          fontSize: 30,
+                          fontWeight: FontWeight.bold,
+                        ),),
+                        Text("Hi! How are you?", style: TextStyle(
+                          fontSize: 20,
+                        ),),
+                      ],
+                    ),
+
+
+                  ],
+                ),
+
+                SizedBox(height: 10,),
+                Row(
+                  children: [
+                    Padding(
+                      padding: const EdgeInsets.only(left: 10,right: 20),
+                      child: Container(
+                        height: 90,
+                        width: 90,
+
+                        decoration: BoxDecoration(
+                          color: Colors.pinkAccent,
+                          borderRadius: BorderRadius.circular(100),
+                        ),
+
+                        child: Center(
+                          child: Text("I", style: TextStyle(
+                            fontSize: 20,
+                            color: Colors.white,
+                            fontWeight: FontWeight.bold,
+                          ),),
+                        ),
+
+
+                      ),
+                    ),
+                    Column(
+                      crossAxisAlignment: CrossAxisAlignment.start,
+                      children: [
+                        Text("Name I", style: TextStyle(
+                          fontSize: 30,
+                          fontWeight: FontWeight.bold,
+                        ),),
+                        Text("Hi! How are you?", style: TextStyle(
+                          fontSize: 20,
+                        ),),
+                      ],
+                    ),
+
+
+                  ],
+                ),
+
+                SizedBox(height: 10,),
+                Row(
+                  children: [
+                    Padding(
+                      padding: const EdgeInsets.only(left: 10,right: 20),
+                      child: Container(
+                        height: 90,
+                        width: 90,
+
+                        decoration: BoxDecoration(
+                          color: Colors.green,
+                          borderRadius: BorderRadius.circular(100),
+                        ),
+
+                        child: Center(
+                          child: Text("J", style: TextStyle(
+                            fontSize: 20,
+                            color: Colors.white,
+                            fontWeight: FontWeight.bold,
+                          ),),
+                        ),
+
+
+                      ),
+                    ),
+                    Column(
+                      crossAxisAlignment: CrossAxisAlignment.start,
+                      children: [
+                        Text("Name J", style: TextStyle(
+                          fontSize: 30,
+                          fontWeight: FontWeight.bold,
+                        ),),
+                        Text("Hi! How are you?", style: TextStyle(
+                          fontSize: 20,
+                        ),),
+                      ],
+                    ),
+
+
+                  ],
+                ),
+
+                SizedBox(height: 10,),
+                Row(
+                  children: [
+                    Padding(
+                      padding: const EdgeInsets.only(left: 10,right: 20),
+                      child: Container(
+                        height: 90,
+                        width: 90,
+
+                        decoration: BoxDecoration(
+                          color: Colors.blue,
+                          borderRadius: BorderRadius.circular(100),
+                        ),
+
                         child: Center(
                           child: Text("K", style: TextStyle(
                             fontSize: 20,
@@ -970,38 +899,113 @@ class MessengerHome extends StatelessWidget {
                             fontWeight: FontWeight.bold,
                           ),),
                         ),
-            
-            
+
+
                       ),
                     ),
                     Column(
+                      crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
-                        Padding(
-                          padding: const EdgeInsets.only(right: 210),
-                          child: Text("Name K", style: TextStyle(
-                            fontSize: 30,
+                        Text("Name K", style: TextStyle(
+                          fontSize: 30,
+                          fontWeight: FontWeight.bold,
+                        ),),
+                        Text("Hi! How are you?", style: TextStyle(
+                          fontSize: 20,
+                        ),),
+                      ],
+                    ),
+
+
+                  ],
+                ),
+
+                SizedBox(height: 10,),
+                Row(
+                  children: [
+                    Padding(
+                      padding: const EdgeInsets.only(left: 10,right: 20),
+                      child: Container(
+                        height: 90,
+                        width: 90,
+
+                        decoration: BoxDecoration(
+                          color: Colors.black,
+                          borderRadius: BorderRadius.circular(100),
+                        ),
+
+                        child: Center(
+                          child: Text("L", style: TextStyle(
+                            fontSize: 20,
+                            color: Colors.white,
                             fontWeight: FontWeight.bold,
                           ),),
                         ),
-                        SizedBox(height: 10,),
-                        Padding(
-                          padding: const EdgeInsets.only(right: 160),
-                          child: Text("Hi! How are you?", style: TextStyle(
-                            fontSize: 20,
-                          ),),
-                        ),
+
+
+                      ),
+                    ),
+                    Column(
+                      crossAxisAlignment: CrossAxisAlignment.start,
+                      children: [
+                        Text("Name L", style: TextStyle(
+                          fontSize: 30,
+                          fontWeight: FontWeight.bold,
+                        ),),
+                        Text("Hi! How are you?", style: TextStyle(
+                          fontSize: 20,
+                        ),),
                       ],
                     ),
-            
-            
+
+
                   ],
                 ),
-              ],
-            ),
-            
+
+                SizedBox(height: 10,),
+                Row(
+                  children: [
+                    Padding(
+                      padding: const EdgeInsets.only(left: 10,right: 20, bottom: 10),
+                      child: Container(
+                        height: 90,
+                        width: 90,
+
+                        decoration: BoxDecoration(
+                          color: Colors.red,
+                          borderRadius: BorderRadius.circular(100),
+                        ),
+
+                        child: Center(
+                          child: Text("M", style: TextStyle(
+                            fontSize: 20,
+                            color: Colors.white,
+                            fontWeight: FontWeight.bold,
+                          ),),
+                        ),
+
+
+                      ),
+                    ),
+                    Column(
+                      crossAxisAlignment: CrossAxisAlignment.start,
+                      children: [
+                        Text("Name M", style: TextStyle(
+                          fontSize: 30,
+                          fontWeight: FontWeight.bold,
+                        ),),
+                        Text("Hi! How are you?", style: TextStyle(
+                          fontSize: 20,
+                        ),),
                       ],
+                    ),
+
+
+                  ],
                 ),
-                    
+
+
+
               ],
             ),
         
