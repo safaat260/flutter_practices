@@ -53,194 +53,397 @@ class MessengerHome extends StatelessWidget {
               scrollDirection: Axis.horizontal,
               child: Row(
                 children: [
-                  Row(
-                    //mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                    children: [
-                      Padding(
-                        padding: const EdgeInsets.only(left: 8),
-                        child: Container(
-                          height: 90,
-                          width: 90,
-                          decoration: BoxDecoration(
-                            color: Colors.white,
-                            borderRadius: BorderRadius.circular(100),
-                          ),
-                          child: Center(child: Icon(Icons.add, size: 60,)),
+                  Padding(
+                    padding: const EdgeInsets.only(right: 5),
+                    child: Column(
+                      children: [
+                        Row(
+                          //mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                          children: [
+                            Padding(
+                              padding: const EdgeInsets.only(left: 8),
+                              child: Container(
+                                height: 90,
+                                width: 90,
+                                decoration: BoxDecoration(
+                                  color: Colors.blueGrey,
+                                  borderRadius: BorderRadius.circular(100),
+                                ),
+                                child: Center(child: Icon(Icons.add, size: 60,)),
+                              ),
+
+                            ),
+
+
+                          ],
+
                         ),
+                        Text("Add Story",style: TextStyle(
+                          fontSize: 15,
+                          color: Colors.black,
+                        ),),
+                      ],
+                    ),
+                  ),
 
-                      ),
+                  Padding(
+                    padding: const EdgeInsets.only(right: 5),
+                    child: Column(
+                      children: [
+                        Row(
+                          //mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                          children: [
+                            Padding(
+                              padding: const EdgeInsets.only(left: 8),
+                              child: Container(
+                                height: 90,
+                                width: 90,
+                                decoration: BoxDecoration(
+                                  color: Colors.red,
+                                  borderRadius: BorderRadius.circular(100),
+                                ),
+                                child: Center(child: Text("A", style: TextStyle(
+                                  fontSize: 30,
+                                  color: Colors.white,
+                                ),)),
+                              ),
 
-                      Padding(
-                        padding: const EdgeInsets.only(left: 10),
-                        child: Container(
-                          height: 90,
-                          width: 90,
-                          decoration: BoxDecoration(
-                            color: Colors.red,
-                            borderRadius: BorderRadius.circular(100),
-                          ),
-                          child: Center(child: Text("B", style: TextStyle(
-                            fontSize: 30,
-                            color: Colors.white,
-                            fontWeight: FontWeight.bold,
-                          ),)),
+                            ),
+
+
+                          ],
+
                         ),
-                      ),
+                        Text("Name A",style: TextStyle(
+                          fontSize: 15,
+                          color: Colors.black,
+                        ),),
+                      ],
+                    ),
+                  ),
 
-                      Padding(
-                        padding: const EdgeInsets.only(left: 10),
-                        child: Container(
-                          height: 90,
-                          width: 90,
-                          decoration: BoxDecoration(
-                            color: Colors.blue,
-                            borderRadius: BorderRadius.circular(100),
-                          ),
-                          child: Center(child: Text("C", style: TextStyle(
-                            fontSize: 30,
-                            color: Colors.yellow,
-                            fontWeight: FontWeight.bold,
-                          ),)),
+                  Padding(
+                    padding: const EdgeInsets.only(right: 5),
+                    child: Column(
+                      children: [
+                        Row(
+                          //mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                          children: [
+                            Padding(
+                              padding: const EdgeInsets.only(left: 8),
+                              child: Container(
+                                height: 90,
+                                width: 90,
+                                decoration: BoxDecoration(
+                                  color: Colors.cyan,
+                                  borderRadius: BorderRadius.circular(100),
+                                ),
+                                child: Center(child: Text("B", style: TextStyle(
+                                  fontSize: 30,
+                                  color: Colors.white,
+                                ),)),
+                              ),
+
+                            ),
+
+
+                          ],
+
                         ),
-                      ),
+                        Text("Name B",style: TextStyle(
+                          fontSize: 15,
+                          color: Colors.black,
+                        ),),
+                      ],
+                    ),
+                  ),
 
-                      Padding(
-                        padding: const EdgeInsets.only(left: 10),
-                        child: Container(
-                          height: 90,
-                          width: 90,
-                          decoration: BoxDecoration(
-                            color: Colors.amberAccent,
-                            borderRadius: BorderRadius.circular(100),
-                          ),
-                          child: Center(child: Text("D", style: TextStyle(
-                            fontSize: 30,
-                            color: Colors.white,
-                            fontWeight: FontWeight.bold,
-                          ),)),
+                  Padding(
+                    padding: const EdgeInsets.only(right: 5),
+                    child: Column(
+                      children: [
+                        Row(
+                          //mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                          children: [
+                            Padding(
+                              padding: const EdgeInsets.only(left: 8),
+                              child: Container(
+                                height: 90,
+                                width: 90,
+                                decoration: BoxDecoration(
+                                  color: Colors.black,
+                                  borderRadius: BorderRadius.circular(100),
+                                ),
+                                child: Center(child: Text("C", style: TextStyle(
+                                  fontSize: 30,
+                                  color: Colors.white,
+                                ),)),
+                              ),
+
+                            ),
+
+
+                          ],
+
                         ),
-                      ),
+                        Text("Name C",style: TextStyle(
+                          fontSize: 15,
+                          color: Colors.black,
+                        ),),
+                      ],
+                    ),
+                  ),
 
-                      Padding(
-                        padding: const EdgeInsets.only(left: 10),
-                        child: Container(
-                          height: 90,
-                          width: 90,
-                          decoration: BoxDecoration(
-                            color: Colors.deepPurpleAccent,
-                            borderRadius: BorderRadius.circular(100),
-                          ),
-                          child: Center(child: Text("E", style: TextStyle(
-                            fontSize: 30,
-                            color: Colors.white,
-                            fontWeight: FontWeight.bold,
-                          ),)),
+                  Padding(
+                    padding: const EdgeInsets.only(right: 5),
+                    child: Column(
+                      children: [
+                        Row(
+                          //mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                          children: [
+                            Padding(
+                              padding: const EdgeInsets.only(left: 8),
+                              child: Container(
+                                height: 90,
+                                width: 90,
+                                decoration: BoxDecoration(
+                                  color: Colors.orange,
+                                  borderRadius: BorderRadius.circular(100),
+                                ),
+                                child: Center(child: Text("D", style: TextStyle(
+                                  fontSize: 30,
+                                  color: Colors.black,
+                                ),)),
+                              ),
+
+                            ),
+
+
+                          ],
+
                         ),
-                      ),
+                        Text("Name D",style: TextStyle(
+                          fontSize: 15,
+                          color: Colors.black,
+                        ),),
+                      ],
+                    ),
+                  ),
 
-                      Padding(
-                        padding: const EdgeInsets.only(left: 10),
-                        child: Container(
-                          height: 90,
-                          width: 90,
-                          decoration: BoxDecoration(
-                            color: Colors.pink,
-                            borderRadius: BorderRadius.circular(100),
-                          ),
-                          child: Center(child: Text("F", style: TextStyle(
-                            fontSize: 30,
-                            color: Colors.white,
-                            fontWeight: FontWeight.bold,
-                          ),)),
+                  Padding(
+                    padding: const EdgeInsets.only(right: 5),
+                    child: Column(
+                      children: [
+                        Row(
+                          //mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                          children: [
+                            Padding(
+                              padding: const EdgeInsets.only(left: 8),
+                              child: Container(
+                                height: 90,
+                                width: 90,
+                                decoration: BoxDecoration(
+                                  color: Colors.greenAccent,
+                                  borderRadius: BorderRadius.circular(100),
+                                ),
+                                child: Center(child: Text("E", style: TextStyle(
+                                  fontSize: 30,
+                                  color: Colors.black,
+                                ),)),
+                              ),
+
+                            ),
+
+
+                          ],
+
                         ),
-                      ),
+                        Text("Name E",style: TextStyle(
+                          fontSize: 15,
+                          color: Colors.black,
+                        ),),
+                      ],
+                    ),
+                  ),
 
-                      Padding(
-                        padding: const EdgeInsets.only(left: 10),
-                        child: Container(
-                          height: 90,
-                          width: 90,
-                          decoration: BoxDecoration(
-                            color: Colors.greenAccent,
-                            borderRadius: BorderRadius.circular(100),
-                          ),
-                          child: Center(child: Text("G", style: TextStyle(
-                            fontSize: 30,
-                            color: Colors.black,
-                            fontWeight: FontWeight.bold,
-                          ),)),
+                  Padding(
+                    padding: const EdgeInsets.only(right: 5),
+                    child: Column(
+                      children: [
+                        Row(
+                          //mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                          children: [
+                            Padding(
+                              padding: const EdgeInsets.only(left: 8),
+                              child: Container(
+                                height: 90,
+                                width: 90,
+                                decoration: BoxDecoration(
+                                  color: Colors.pink,
+                                  borderRadius: BorderRadius.circular(100),
+                                ),
+                                child: Center(child: Text("F", style: TextStyle(
+                                  fontSize: 30,
+                                  color: Colors.black,
+                                ),)),
+                              ),
+
+                            ),
+
+
+                          ],
+
                         ),
-                      ),
+                        Text("Name F",style: TextStyle(
+                          fontSize: 15,
+                          color: Colors.black,
+                        ),),
+                      ],
+                    ),
+                  ),
 
-                      Padding(
-                        padding: const EdgeInsets.only(left: 10),
-                        child: Container(
-                          height: 90,
-                          width: 90,
-                          decoration: BoxDecoration(
-                            color: Colors.deepOrange,
-                            borderRadius: BorderRadius.circular(100),
-                          ),
-                          child: Center(child: Text("H", style: TextStyle(
-                            fontSize: 30,
-                            color: Colors.black,
-                            fontWeight: FontWeight.bold,
-                          ),)),
+                  Padding(
+                    padding: const EdgeInsets.only(right: 5),
+                    child: Column(
+                      children: [
+                        Row(
+                          //mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                          children: [
+                            Padding(
+                              padding: const EdgeInsets.only(left: 8),
+                              child: Container(
+                                height: 90,
+                                width: 90,
+                                decoration: BoxDecoration(
+                                  color: Colors.purpleAccent,
+                                  borderRadius: BorderRadius.circular(100),
+                                ),
+                                child: Center(child: Text("G", style: TextStyle(
+                                  fontSize: 30,
+                                  color: Colors.white,
+                                ),)),
+                              ),
+
+                            ),
+
+
+                          ],
+
                         ),
-                      ),
+                        Text("Name G",style: TextStyle(
+                          fontSize: 15,
+                          color: Colors.black,
+                        ),),
+                      ],
+                    ),
+                  ),
 
-                      Padding(
-                        padding: const EdgeInsets.only(left: 10),
-                        child: Container(
-                          height: 90,
-                          width: 90,
-                          decoration: BoxDecoration(
-                            color: Colors.purpleAccent,
-                            borderRadius: BorderRadius.circular(100),
-                          ),
-                          child: Center(child: Text("I", style: TextStyle(
-                            fontSize: 30,
-                            color: Colors.white,
-                            fontWeight: FontWeight.bold,
-                          ),)),
+                  Padding(
+                    padding: const EdgeInsets.only(right: 5),
+                    child: Column(
+                      children: [
+                        Row(
+                          //mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                          children: [
+                            Padding(
+                              padding: const EdgeInsets.only(left: 8),
+                              child: Container(
+                                height: 90,
+                                width: 90,
+                                decoration: BoxDecoration(
+                                  color: Colors.teal,
+                                  borderRadius: BorderRadius.circular(100),
+                                ),
+                                child: Center(child: Text("H", style: TextStyle(
+                                  fontSize: 30,
+                                  color: Colors.white,
+                                ),)),
+                              ),
+
+                            ),
+
+
+                          ],
+
                         ),
-                      ),
+                        Text("Name H",style: TextStyle(
+                          fontSize: 15,
+                          color: Colors.black,
+                        ),),
+                      ],
+                    ),
+                  ),
 
-                      Padding(
-                        padding: const EdgeInsets.only(left: 10),
-                        child: Container(
-                          height: 90,
-                          width: 90,
-                          decoration: BoxDecoration(
-                            color: Colors.black,
-                            borderRadius: BorderRadius.circular(100),
-                          ),
-                          child: Center(child: Text("J", style: TextStyle(
-                            fontSize: 30,
-                            color: Colors.white,
-                            fontWeight: FontWeight.bold,
-                          ),)),
+                  Padding(
+                    padding: const EdgeInsets.only(right: 5),
+                    child: Column(
+                      children: [
+                        Row(
+                          //mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                          children: [
+                            Padding(
+                              padding: const EdgeInsets.only(left: 8),
+                              child: Container(
+                                height: 90,
+                                width: 90,
+                                decoration: BoxDecoration(
+                                  color: Colors.yellow,
+                                  borderRadius: BorderRadius.circular(100),
+                                ),
+                                child: Center(child: Text("I", style: TextStyle(
+                                  fontSize: 30,
+                                  color: Colors.red,
+                                ),)),
+                              ),
+
+                            ),
+
+
+                          ],
+
                         ),
-                      ),
+                        Text("Name I",style: TextStyle(
+                          fontSize: 15,
+                          color: Colors.black,
+                        ),),
+                      ],
+                    ),
+                  ),
 
-                      Padding(
-                        padding: const EdgeInsets.only(left: 10, right: 10,),
-                        child: Container(
-                          height: 90,
-                          width: 90,
-                          decoration: BoxDecoration(
-                            color: Colors.cyan,
-                            borderRadius: BorderRadius.circular(100),
-                          ),
-                          child: Center(child: Text("L", style: TextStyle(
-                            fontSize: 30,
-                            color: Colors.white,
-                            fontWeight: FontWeight.bold,
-                          ),)),
+                  Padding(
+                    padding: const EdgeInsets.only(right: 5),
+                    child: Column(
+                      children: [
+                        Row(
+                          //mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                          children: [
+                            Padding(
+                              padding: const EdgeInsets.only(left: 8),
+                              child: Container(
+                                height: 90,
+                                width: 90,
+                                decoration: BoxDecoration(
+                                  color: Colors.grey,
+                                  borderRadius: BorderRadius.circular(100),
+                                ),
+                                child: Center(child: Text("J", style: TextStyle(
+                                  fontSize: 30,
+                                  color: Colors.black,
+                                ),)),
+                              ),
+
+                            ),
+
+
+                          ],
+
                         ),
-                      ),
-                    ],
-
+                        Text("Name J",style: TextStyle(
+                          fontSize: 15,
+                          color: Colors.black,
+                        ),),
+                      ],
+                    ),
                   ),
                 ],
               ),
