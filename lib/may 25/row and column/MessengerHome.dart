@@ -9,11 +9,15 @@ class MessengerHome extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         backgroundColor: Colors.white,
-        title: Text("Messenger", style: TextStyle(
-          color: Colors.blue,
-          fontWeight: FontWeight.bold,
-          fontSize: 30,
-        ),),
+        leading: Icon(Icons.menu,size: 35,),
+        title: Padding(
+          padding: const EdgeInsets.only(right: 10),
+          child: Text("Messenger", style: TextStyle(
+            color: Colors.blue,
+            fontWeight: FontWeight.bold,
+            fontSize: 30,
+          ),),
+        ),
       ),
 
       //body
