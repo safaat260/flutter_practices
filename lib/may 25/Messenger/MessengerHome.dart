@@ -461,7 +461,7 @@ class MessengerHome extends StatelessWidget {
               children: [
                 Column(
                   children: [
-
+            
             Column(
               children: [
                 Row(
@@ -510,7 +510,7 @@ class MessengerHome extends StatelessWidget {
 
                   ],
                 ),
-
+            
                 SizedBox(height: 15,),
                 Row(
                   children: [
@@ -519,12 +519,12 @@ class MessengerHome extends StatelessWidget {
                       child: Container(
                         height: 90,
                         width: 90,
-
+            
                         decoration: BoxDecoration(
                           color: Colors.yellow,
                           borderRadius: BorderRadius.circular(100),
                         ),
-
+            
                         child: Center(
                           child: Text("B", style: TextStyle(
                             fontSize: 20,
@@ -532,8 +532,8 @@ class MessengerHome extends StatelessWidget {
                             fontWeight: FontWeight.bold,
                           ),),
                         ),
-
-
+            
+            
                       ),
                     ),
                     Column(
@@ -554,12 +554,12 @@ class MessengerHome extends StatelessWidget {
                         ),
                       ],
                     ),
-
-
+            
+            
                   ],
                 ),
-
-
+            
+            
                 SizedBox(height: 15,),
                 Row(
                   children: [
@@ -568,12 +568,12 @@ class MessengerHome extends StatelessWidget {
                       child: Container(
                         height: 90,
                         width: 90,
-
+            
                         decoration: BoxDecoration(
                           color: Colors.green,
                           borderRadius: BorderRadius.circular(100),
                         ),
-
+            
                         child: Center(
                           child: Text("C", style: TextStyle(
                             fontSize: 20,
@@ -581,8 +581,8 @@ class MessengerHome extends StatelessWidget {
                             fontWeight: FontWeight.bold,
                           ),),
                         ),
-
-
+            
+            
                       ),
                     ),
                     Column(
@@ -603,11 +603,11 @@ class MessengerHome extends StatelessWidget {
                         ),
                       ],
                     ),
-
-
+            
+            
                   ],
                 ),
-
+            
                 SizedBox(height: 15,),
                 Row(
                   children: [
@@ -616,12 +616,12 @@ class MessengerHome extends StatelessWidget {
                       child: Container(
                         height: 90,
                         width: 90,
-
+            
                         decoration: BoxDecoration(
                           color: Colors.purpleAccent,
                           borderRadius: BorderRadius.circular(100),
                         ),
-
+            
                         child: Center(
                           child: Text("D", style: TextStyle(
                             fontSize: 20,
@@ -629,8 +629,8 @@ class MessengerHome extends StatelessWidget {
                             fontWeight: FontWeight.bold,
                           ),),
                         ),
-
-
+            
+            
                       ),
                     ),
                     Column(
@@ -651,12 +651,12 @@ class MessengerHome extends StatelessWidget {
                         ),
                       ],
                     ),
-
-
+            
+            
                   ],
                 ),
-
-
+            
+            
                 SizedBox(height: 15,),
                 Row(
                   children: [
@@ -665,12 +665,12 @@ class MessengerHome extends StatelessWidget {
                       child: Container(
                         height: 90,
                         width: 90,
-
+            
                         decoration: BoxDecoration(
                           color: Colors.cyan,
                           borderRadius: BorderRadius.circular(100),
                         ),
-
+            
                         child: Center(
                           child: Text("E", style: TextStyle(
                             fontSize: 20,
@@ -678,8 +678,8 @@ class MessengerHome extends StatelessWidget {
                             fontWeight: FontWeight.bold,
                           ),),
                         ),
-
-
+            
+            
                       ),
                     ),
                     Column(
@@ -700,11 +700,11 @@ class MessengerHome extends StatelessWidget {
                         ),
                       ],
                     ),
-
-
+            
+            
                   ],
                 ),
-
+            
                 SizedBox(height: 15,),
                 Row(
                   children: [
@@ -713,12 +713,12 @@ class MessengerHome extends StatelessWidget {
                       child: Container(
                         height: 90,
                         width: 90,
-
+            
                         decoration: BoxDecoration(
                           color: Colors.pink,
                           borderRadius: BorderRadius.circular(100),
                         ),
-
+            
                         child: Center(
                           child: Text("F", style: TextStyle(
                             fontSize: 20,
@@ -726,8 +726,8 @@ class MessengerHome extends StatelessWidget {
                             fontWeight: FontWeight.bold,
                           ),),
                         ),
-
-
+            
+            
                       ),
                     ),
                     Column(
@@ -748,12 +748,12 @@ class MessengerHome extends StatelessWidget {
                         ),
                       ],
                     ),
-
-
+            
+            
                   ],
                 ),
-
-
+            
+            
                 SizedBox(height: 15,),
                 Row(
                   children: [
@@ -762,12 +762,12 @@ class MessengerHome extends StatelessWidget {
                       child: Container(
                         height: 90,
                         width: 90,
-
+            
                         decoration: BoxDecoration(
                           color: Colors.greenAccent,
                           borderRadius: BorderRadius.circular(100),
                         ),
-
+            
                         child: Center(
                           child: Text("G", style: TextStyle(
                             fontSize: 20,
@@ -775,8 +775,8 @@ class MessengerHome extends StatelessWidget {
                             fontWeight: FontWeight.bold,
                           ),),
                         ),
-
-
+            
+            
                       ),
                     ),
                     Column(
@@ -797,12 +797,12 @@ class MessengerHome extends StatelessWidget {
                         ),
                       ],
                     ),
-
-
+            
+            
                   ],
                 ),
-
-
+            
+            
                 SizedBox(height: 15,),
                 Row(
                   children: [
@@ -811,12 +811,12 @@ class MessengerHome extends StatelessWidget {
                       child: Container(
                         height: 90,
                         width: 90,
-
+            
                         decoration: BoxDecoration(
                           color: Colors.tealAccent,
                           borderRadius: BorderRadius.circular(100),
                         ),
-
+            
                         child: Center(
                           child: Text("H", style: TextStyle(
                             fontSize: 20,
@@ -824,8 +824,8 @@ class MessengerHome extends StatelessWidget {
                             fontWeight: FontWeight.bold,
                           ),),
                         ),
-
-
+            
+            
                       ),
                     ),
                     Column(
@@ -846,11 +846,11 @@ class MessengerHome extends StatelessWidget {
                         ),
                       ],
                     ),
-
-
+            
+            
                   ],
                 ),
-
+            
                 SizedBox(height: 15,),
                 Row(
                   children: [
@@ -859,12 +859,12 @@ class MessengerHome extends StatelessWidget {
                       child: Container(
                         height: 90,
                         width: 90,
-
+            
                         decoration: BoxDecoration(
                           color: Colors.red,
                           borderRadius: BorderRadius.circular(100),
                         ),
-
+            
                         child: Center(
                           child: Text("I", style: TextStyle(
                             fontSize: 20,
@@ -872,8 +872,8 @@ class MessengerHome extends StatelessWidget {
                             fontWeight: FontWeight.bold,
                           ),),
                         ),
-
-
+            
+            
                       ),
                     ),
                     Column(
@@ -894,12 +894,12 @@ class MessengerHome extends StatelessWidget {
                         ),
                       ],
                     ),
-
-
+            
+            
                   ],
                 ),
-
-
+            
+            
                 SizedBox(height: 15,),
                 Row(
                   children: [
@@ -908,12 +908,12 @@ class MessengerHome extends StatelessWidget {
                       child: Container(
                         height: 90,
                         width: 90,
-
+            
                         decoration: BoxDecoration(
                           color: Colors.yellow,
                           borderRadius: BorderRadius.circular(100),
                         ),
-
+            
                         child: Center(
                           child: Text("J", style: TextStyle(
                             fontSize: 20,
@@ -921,8 +921,8 @@ class MessengerHome extends StatelessWidget {
                             fontWeight: FontWeight.bold,
                           ),),
                         ),
-
-
+            
+            
                       ),
                     ),
                     Column(
@@ -943,12 +943,12 @@ class MessengerHome extends StatelessWidget {
                         ),
                       ],
                     ),
-
-
+            
+            
                   ],
                 ),
-
-
+            
+            
                 SizedBox(height: 15,),
                 Row(
                   children: [
@@ -957,12 +957,12 @@ class MessengerHome extends StatelessWidget {
                       child: Container(
                         height: 90,
                         width: 90,
-
+            
                         decoration: BoxDecoration(
                           color: Colors.black,
                           borderRadius: BorderRadius.circular(100),
                         ),
-
+            
                         child: Center(
                           child: Text("K", style: TextStyle(
                             fontSize: 20,
@@ -970,8 +970,8 @@ class MessengerHome extends StatelessWidget {
                             fontWeight: FontWeight.bold,
                           ),),
                         ),
-
-
+            
+            
                       ),
                     ),
                     Column(
@@ -992,16 +992,16 @@ class MessengerHome extends StatelessWidget {
                         ),
                       ],
                     ),
-
-
+            
+            
                   ],
                 ),
               ],
             ),
-
+            
                       ],
                 ),
-        
+                    
               ],
             ),
         
