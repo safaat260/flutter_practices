@@ -8,6 +8,7 @@ class Messenger extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       title: "Messenger",
       home: MessengerHome(),
     );

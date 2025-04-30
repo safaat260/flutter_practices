@@ -292,8 +292,8 @@ class MessengerHome extends StatelessWidget {
                         ),
                         SizedBox(height: 10,),
                         Padding(
-                          padding: const EdgeInsets.only(right: 1),
-                          child: Text("Hi! How are you?              .11:40Pm", style: TextStyle(
+                          padding: const EdgeInsets.only(right: 160),
+                          child: Text("Hi! How are you?", style: TextStyle(
                             fontSize: 20,
                           ),),
                         ),
@@ -340,8 +340,8 @@ class MessengerHome extends StatelessWidget {
                         ),
                         SizedBox(height: 10,),
                         Padding(
-                          padding: const EdgeInsets.only(right: 1),
-                          child: Text("Hi! How are you?              .11:40Pm", style: TextStyle(
+                          padding: const EdgeInsets.only(right: 160),
+                          child: Text("Hi! How are you?", style: TextStyle(
                             fontSize: 20,
                           ),),
                         ),
@@ -389,8 +389,8 @@ class MessengerHome extends StatelessWidget {
                         ),
                         SizedBox(height: 10,),
                         Padding(
-                          padding: const EdgeInsets.only(right: 1),
-                          child: Text("Hi! How are you?              .11:40Pm", style: TextStyle(
+                          padding: const EdgeInsets.only(right: 160),
+                          child: Text("Hi! How are you?", style: TextStyle(
                             fontSize: 20,
                           ),),
                         ),
@@ -437,8 +437,8 @@ class MessengerHome extends StatelessWidget {
                         ),
                         SizedBox(height: 10,),
                         Padding(
-                          padding: const EdgeInsets.only(right: 1),
-                          child: Text("Hi! How are you?              .11:40Pm", style: TextStyle(
+                          padding: const EdgeInsets.only(right: 160),
+                          child: Text("Hi! How are you?", style: TextStyle(
                             fontSize: 20,
                           ),),
                         ),
@@ -486,8 +486,8 @@ class MessengerHome extends StatelessWidget {
                         ),
                         SizedBox(height: 10,),
                         Padding(
-                          padding: const EdgeInsets.only(right: 1),
-                          child: Text("Hi! How are you?              .11:40Pm", style: TextStyle(
+                          padding: const EdgeInsets.only(right: 160),
+                          child: Text("Hi! How are you?", style: TextStyle(
                             fontSize: 20,
                           ),),
                         ),
@@ -534,8 +534,8 @@ class MessengerHome extends StatelessWidget {
                         ),
                         SizedBox(height: 10,),
                         Padding(
-                          padding: const EdgeInsets.only(right: 1),
-                          child: Text("Hi! How are you?              .11:40Pm", style: TextStyle(
+                          padding: const EdgeInsets.only(right: 160),
+                          child: Text("Hi! How are you?", style: TextStyle(
                             fontSize: 20,
                           ),),
                         ),
@@ -583,8 +583,8 @@ class MessengerHome extends StatelessWidget {
                         ),
                         SizedBox(height: 10,),
                         Padding(
-                          padding: const EdgeInsets.only(right: 1),
-                          child: Text("Hi! How are you?              .11:40Pm", style: TextStyle(
+                          padding: const EdgeInsets.only(right: 160),
+                          child: Text("Hi! How are you?", style: TextStyle(
                             fontSize: 20,
                           ),),
                         ),
@@ -632,8 +632,8 @@ class MessengerHome extends StatelessWidget {
                         ),
                         SizedBox(height: 10,),
                         Padding(
-                          padding: const EdgeInsets.only(right: 1),
-                          child: Text("Hi! How are you?              .11:40Pm", style: TextStyle(
+                          padding: const EdgeInsets.only(right: 160),
+                          child: Text("Hi! How are you?", style: TextStyle(
                             fontSize: 20,
                           ),),
                         ),
@@ -680,8 +680,8 @@ class MessengerHome extends StatelessWidget {
                         ),
                         SizedBox(height: 10,),
                         Padding(
-                          padding: const EdgeInsets.only(right: 1),
-                          child: Text("Hi! How are you?              .11:40Pm", style: TextStyle(
+                          padding: const EdgeInsets.only(right: 160),
+                          child: Text("Hi! How are you?", style: TextStyle(
                             fontSize: 20,
                           ),),
                         ),
@@ -729,8 +729,8 @@ class MessengerHome extends StatelessWidget {
                         ),
                         SizedBox(height: 10,),
                         Padding(
-                          padding: const EdgeInsets.only(right: 1),
-                          child: Text("Hi! How are you?              .11:40Pm", style: TextStyle(
+                          padding: const EdgeInsets.only(right: 160),
+                          child: Text("Hi! How are you?", style: TextStyle(
                             fontSize: 20,
                           ),),
                         ),
@@ -757,7 +757,7 @@ class MessengerHome extends StatelessWidget {
                         ),
 
                         child: Center(
-                          child: Text("L", style: TextStyle(
+                          child: Text("K", style: TextStyle(
                             fontSize: 20,
                             color: Colors.white,
                             fontWeight: FontWeight.bold,
@@ -771,15 +771,15 @@ class MessengerHome extends StatelessWidget {
                       children: [
                         Padding(
                           padding: const EdgeInsets.only(right: 210),
-                          child: Text("Name L", style: TextStyle(
+                          child: Text("Name K", style: TextStyle(
                             fontSize: 30,
                             fontWeight: FontWeight.bold,
                           ),),
                         ),
                         SizedBox(height: 10,),
                         Padding(
-                          padding: const EdgeInsets.only(right: 1),
-                          child: Text("Hi! How are you?              .11:40Pm", style: TextStyle(
+                          padding: const EdgeInsets.only(right: 160),
+                          child: Text("Hi! How are you?", style: TextStyle(
                             fontSize: 20,
                           ),),
                         ),
